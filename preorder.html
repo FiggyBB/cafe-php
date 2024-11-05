@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preorder Meals - The Gallery Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Gallery Café</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="preorder.html">Preorder</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.php">Dashboard</a></li>
+            <li><a href="logout.php">Logout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="form-container">
+            <form method="post" action="preorder.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="meal">Meal:</label>
+                <input type="text" id="meal" name="meal" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Preorder</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Gallery Café</p>
+    </footer>
+</body>
+</html>

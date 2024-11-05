@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gallery Café</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Gallery Café</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="preorder.html">Preorder</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.php">Dashboard</a></li>
+            <li><a href="logout.php">Logout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to The Gallery Café</h2>
+                <p>Where food meets art. Join us for an unforgettable dining experience.</p>
+                <a href="reservation.html" class="button">Make a Reservation</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>The Gallery Café, located in Colombo, is a place where food meets art. Established in 2000, we have been serving delicious meals with a touch of creativity. Our mission is to provide an unforgettable dining experience with high-quality cuisine and exceptional service.</p>
+            </div>
+        </section>
+
+        <!-- Meals Section -->
+        <section class="meals">
+            <div class="container">
+                <h2>Our Specialties</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/spaghetti_carbonara.jpeg" alt="Spaghetti Carbonara">
+                        <h3>Spaghetti Carbonara</h3>
+                        <p>Delicious spaghetti with a creamy carbonara sauce.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/margherita_pizza.jpeg" alt="Margherita Pizza">
+                        <h3>Margherita Pizza</h3>
+                        <p>Classic pizza topped with fresh tomatoes, mozzarella, and basil.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/caesar_salad.jpeg" alt="Caesar Salad">
+                        <h3>Caesar Salad</h3>
+                        <p>Fresh romaine lettuce with Caesar dressing, croutons, and parmesan.</p>
+                    </div>
+                </div>
+                <a href="menu.html" class="button">View Full Menu</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>If you have any questions or would like to make a reservation, please feel free to <a href="contact.html">contact us</a>.</p>
+                <form method="post" action="contact.php" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Gallery Café</p>
+    </footer>
+</body>
+</html>
